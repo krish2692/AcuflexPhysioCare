@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>ACUflex Physio Care</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <div class="navbar">
+      <div class="logo-container">
+        <img src="images/logo.jpg" alt="ACUflex Logo" class="logo">
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero section">
+    <h2>Welcome to ACUflex Physio Care</h2>
+    <p>Your pathway to better health and wellness.</p>
+    <a href="#services" class="cta-btn">Explore Our Services</a>
+  </section>
+
+  <!-- About Us Section -->
+  <section id="about" class="about-us section">
+    <h2>About Us</h2>
+    <p>At ACUflex Physio Care, we specialize in providing high-quality physiotherapy services tailored to your needs. Our expert team of physiotherapists is dedicated to helping you recover, maintain, and enhance your physical well-being.</p>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="services section">
+    <div class="service-card">
+      <h3>Physiotherapy</h3>
+      <p>Our physiotherapy services focus on pain relief, injury rehabilitation, and mobility improvement.</p>
+      <a href="#contact" class="cta-btn">Book a Session</a>
+    </div>
+    <div class="service-card">
+      <h3>Massage Therapy</h3>
+      <p>Relax and rejuvenate with our therapeutic massage treatments designed to relieve stress and muscle tension.</p>
+      <a href="#contact" class="cta-btn">Book a Session</a>
+    </div>
+    <div class="service-card">
+      <h3>Sports Rehabilitation</h3>
+      <p>We provide expert rehabilitation to help athletes recover from injuries and return to their peak performance.</p>
+      <a href="#contact" class="cta-btn">Book a Session</a>
+    </div>
+  </section>
+
+<section class="testimonials">
+  <h2>What Our Clients Say</h2>
+  <div class="testimonial-slider">
+    <!-- Testimonial Slide 1 -->
+    <div class="testimonial-slide">
+      <p>"ACUflex has truly helped me recover and improve my mobility. The therapists are amazing!"</p>
+      <h4>John Doe</h4>
+    </div>
+  </div>
+
+  <!-- Navigation Buttons -->
+  <button class="slider-btn prev-btn">Prev</button>
+  <button class="slider-btn next-btn">Next</button>
+</section>
+
+
+
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact section">
+    <h2>Contact Us</h2>
+    <form action="#" method="POST">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Booking Section -->
+  <section id="booking" class="booking section">
+    <h2>Book a Session</h2>
+    <form action="#" method="POST">
+      <label for="session-type">Session Type</label>
+      <select id="session-type" name="session-type" required>
+        <option value="physiotherapy">Physiotherapy</option>
+        <option value="massage">Massage Therapy</option>
+        <option value="sports-rehab">Sports Rehabilitation</option>
+      </select>
+
+      <label for="date">Preferred Date</label>
+      <input type="date" id="date" name="date" required>
+
+      <label for="time">Preferred Time</label>
+      <input type="time" id="time" name="time" required>
+
+      <button type="submit">Book Now</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 ACUflex Physio Care. All rights reserved.</p>
+    <p>Follow us on <a href="#">Facebook</a> | <a href="#">Instagram</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
